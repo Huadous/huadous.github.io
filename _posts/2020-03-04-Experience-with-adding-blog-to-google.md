@@ -27,6 +27,7 @@ The address you put here should be the root folder of your website, which is the
     So I use the second option to accomplish the verification. The goal is to add an html tag to your homepage `<head>` tag. Below steps apply to minima theme.
        - Copy `_includes/head.html` from github to your website if it is not there.
        - Edit `head.html` to add the tag provided by google by google in between the `<head>` tag like below.
+       
 ```html
 <head>
   <meta charset="utf-8">
@@ -41,6 +42,7 @@ The address you put here should be the root folder of your website, which is the
   <meta name="google-site-verification" content="P5JvIrpAzGuAYMCBT3_-1TEpWsUUoQAaYK3B6hgaauA" />
 </head>
 ```
+
   - Click `verify` button, and you are done with it. It may take few minutes for the meta data to take effect, so be a little patient.  
 ![verify_success]({{"/assets/img/sample/verify_success.png" | relative_url}})
   - It may take hours to few days until you can see the performance about your website in the console.
