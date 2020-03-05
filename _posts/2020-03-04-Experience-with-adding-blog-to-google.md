@@ -41,7 +41,7 @@ The first step is to let Google know you are the owner of a site, which is ident
      * Copy `_includes/head.html` from github to your website if it is not there.  
      * Edit `head.html` to add the tag provided by google by google in between the `<head>` tag like below.
     {% raw %}
-    ```html
+    ```
     <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -75,7 +75,7 @@ Github Pages can generate a site map automatically for your site, just simply fo
 1. Add `gem 'jekyll-sitemap'` to your site's Gemfile and run `bundle`.
 2. Add the following to your site's `_config.yml`:
    
-    ```html
+    ```
     url: "https://example.com" # the base hostname & protocol for your site
     plugins:
       - jekyll-sitemap
