@@ -38,6 +38,7 @@ The first step is to let Google know you are the owner of a site, which is ident
    
     *  Copy `_includes/head.html` from github to your website if it is not there.  
     * Edit `head.html` to add the tag provided by google by google in between the `<head>` tag like below.
+    
     {% raw %}
     ```Liquid
     <head>
@@ -54,6 +55,7 @@ The first step is to let Google know you are the owner of a site, which is ident
     </head>
     ```
     {% endraw %}
+    
     * Click `verify` button, and you are done with it. It may take few minutes for the meta data to take effect, so be a little patient.
     ![verify_success]({{"/assets/img/sample/verified.jpg" | relative_url}})
     * It may take hours to few days until you can see the performance about your website in the console.
