@@ -83,8 +83,8 @@ toc: true
 
 paginate: 10
 
-# markdown: kramdown
-markdown: Menlo
+markdown: kramdown
+
 
 highlighter: rouge
 
