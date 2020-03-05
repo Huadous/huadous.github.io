@@ -40,7 +40,7 @@ The first step is to let Google know you are the owner of a site, which is ident
     * Edit `head.html` to add the tag provided by google by google in between the `<head>` tag like below.
     
     {% raw %}
-    ```Liquid
+    ```html
     <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -80,7 +80,7 @@ plugins:
  - jekyll-sitemap
 ```
 
-* a file named `sitemap.xml` will generate automatically at the root folder of your site, such as `https://huadous.com/sitemap.xml` for this site. You shall be able to check it out via this url in browser
+* A file named `sitemap.xml` will generate automatically at the root folder of your site, such as `https://huadous.com/sitemap.xml` for this site. You shall be able to check it out via this url in browser
 
 Then, you can submit the address of your sitemap file to Google Search Engine, prompting the Googlebot to analyze your site for indexing.
 

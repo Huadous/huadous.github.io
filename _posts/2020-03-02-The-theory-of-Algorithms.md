@@ -8,6 +8,7 @@ seo:
 ---
 
 ## This is a reading report about the book <Algorithms 4th Edition>
+---
 
 I'll add more details in the future. Just dig a hole now.
 

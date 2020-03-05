@@ -8,7 +8,8 @@ seo:
   date_modified: 2020-03-02 17:48:52 +0800
 ---
 
-## Creat your personal token
+## Creat Your Personal Token
+---
 
 
 1. Open this website [Github-Settings-Developer settings](https://github.com/settings/tokens).
@@ -17,7 +18,8 @@ seo:
 4. Copy your token.
 
 
-## Creat your gist id
+## Creat Your Gist Id
+---
 
 
 1. Open this website [GitHub-Gist](https://gist.github.com/).
@@ -25,8 +27,8 @@ seo:
 3. Copy your gist's url(gist id).
    
 
-## Open your vscode
-
+## Open Your VsCode
+---
 
 1. Install Settings-sync by Extensions(vscode)(After we have store tokens and gist id)
 2. Hold down `Ctrl + Shift + P`  simultaneously,  to call out the searching bar, and input `Sync`.
@@ -44,8 +46,8 @@ seo:
 ```
 
 
-## How to use shortcuts
-
+## How To Use Shortcuts
+---
 
 * Upload : `Shift + Alt + U` for Windows, `Shift + Option + U` for MaxOs.
 * Download : `Shift + Alt + D` for Windows, `Shift + Option + D` for MaxOs.

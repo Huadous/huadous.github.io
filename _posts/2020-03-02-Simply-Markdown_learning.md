@@ -8,7 +8,8 @@ seo:
 ---
 
 
-## Summary about the syntax of Markdown
+## Summary About The Syntax of Markdown
+---
 
 After one day's learning, I almost familier with the basic syntax.
 
