@@ -56,7 +56,7 @@ The first step is to let Google know you are the owner of a site, which is ident
     {% endraw %}
 
      * Click `verify` button, and you are done with it. It may take few minutes for the meta data to take effect, so be a little patient.
-    ![verify_success]({{"/assets/img/sample/verify_success.png" | relative_url}})
+  ![verify_success]({{"/assets/img/sample/verify_success.png" | relative_url}})
      * It may take hours to few days until you can see the performance about your website in the console.
 
 2. If you have chose `Domain`, you can do this: 
@@ -71,20 +71,17 @@ Okay, Google is aware of the existence of your website now. Next, you need to te
 Github Pages can generate a site map automatically for your site, just simply follow this official instruction:
 
 1. Add `gem 'jekyll-sitemap'` to your site's Gemfile and run `bundle`.
-
 2. Add the following to your site's `_config.yml`:
-
   ```html
   url: "https://example.com" # the base hostname & protocol for your site
   plugins:
        - jekyll-sitemap
   ```
-
 3. a file named `sitemap.xml` will generate automatically at the root folder of your site, such as `https://huadous.com/sitemap.xml` for this site. You shall be able to check it out via this url in browser
 
-  Then, you can submit the address of your sitemap file to Google Search Engine, prompting the Googlebot to analyze your site for indexing.
+Then, you can submit the address of your sitemap file to Google Search Engine, prompting the Googlebot to analyze your site for indexing.
 
-  For my case, I could not search my site via site name until **2 days** after I submit the sitemap file. And it is **5 dyas** for posts to be searchable via title name. It takes some patience.
+For my case, I could not search my site via site name until **2 days** after I submit the sitemap file. And it is **5 dyas** for posts to be searchable via title name. It takes some patience.
 
 
 # URL Inspection
