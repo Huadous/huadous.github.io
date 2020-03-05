@@ -12,21 +12,30 @@ There is no point to make a website if it cannot be indexed on Google, so lets t
 
 ## Google search console
 
+
 You need to use this system provided by Google to accomplish this task. Simply log in to this [**system**](https://search.google.com/search-console/about) with your Google account, and click `Start now`.
+
 
 ## Owner verification
 
+
 The first step is to let Google know you are the owner of a site, which is identified as a property here. Obviously, you can have a lot of properties.
+
 
 * Select `Domain` or `URL prefix` as your property type, and input your website address, e.g. `https://huadous.com`
 ![select_property_type]({{ "/assets/img/sample/select_property_type.png" | relative_url }})
 The address you put here should be the root folder of your website, which is the place your  `index.html` resides. If you have multiple sites under your github pages, you can register one property for each of them.
+
+
 * Choose one of the method the websites provides to do the verification. 
-  1. If you have chose `URL prefix` , the first option would be the easiest way to do that. All you need to do is to download an html file and upload to your website root folder. But unforunately I tried many times to do the uploading, google failed to identify the file, even though I can access it via url. 
+  
+  
+1. If you have chose `URL prefix` , the first option would be the easiest way to do that. All you need to do is to download an html file and upload to your website root folder. But unforunately I tried many times to do the uploading, google failed to identify the file, even though I can access it via url. 
    
-    So I use the second option to accomplish the verification. The goal is to add an html tag to your homepage `<head>` tag. Below steps apply to minima theme.
-       - Copy `_includes/head.html` from github to your website if it is not there.
-       - Edit `head.html` to add the tag provided by google by google in between the `<head>` tag like below.
+So I use the second option to accomplish the verification. The goal is to add an html tag to your homepage `<head>` tag. Below steps apply to minima theme.
+
+  - Copy `_includes/head.html` from github to your website if it is not there.
+  - Edit `head.html` to add the tag provided by google by google in between the `<head>` tag like below.
        
 
 
@@ -36,7 +45,7 @@ The address you put here should be the root folder of your website, which is the
 
 
 
- 2. If you have chose `Domain`, you can do this: 
+1. If you have chose `Domain`, you can do this: 
 
 
 ## Site Map
