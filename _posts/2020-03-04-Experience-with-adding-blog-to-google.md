@@ -56,7 +56,7 @@ The first step is to let Google know you are the owner of a site, which is ident
       {% endraw %}
 
      * Click `verify` button, and you are done with it. It may take few minutes for the meta data to take effect, so be a little patient.
-      ![verify_success]({{"/assets/img/sample/verify_success.png" | relative_url}})
+    ![verify_success]({{"/assets/img/sample/verify_success.png" | relative_url}})
      * It may take hours to few days until you can see the performance about your website in the console.
 
   2. If you have chose `Domain`, you can do this: 
