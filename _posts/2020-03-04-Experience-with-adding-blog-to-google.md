@@ -39,7 +39,7 @@ The first step is to let Google know you are the owner of a site, which is ident
     *  Copy `_includes/head.html` from github to your website if it is not there.  
     * Edit `head.html` to add the tag provided by google by google in between the `<head>` tag like below.
     {% raw %}
-    ```html
+    ```Liquid
     <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
