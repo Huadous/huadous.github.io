@@ -33,6 +33,7 @@ The first step is to let Google know you are the owner of a site, which is ident
   
   
   1. If you have chose `URL prefix` , the first option would be the easiest way to do that. All you need to do is to download an html file and upload to your website root folder. But unforunately I tried many times to do the uploading, google failed to identify the file, even though I can access it via url.  
+  
     So I use the second option to accomplish the verification. The goal is to add an html tag to your homepage `<head>` tag. Below steps apply to minima theme.
    
    * Copy `_includes/head.html` from github to your website if it is not there.  
