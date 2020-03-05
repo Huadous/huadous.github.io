@@ -30,7 +30,7 @@ The address you put here should be the root folder of your website, which is the
 * Choose one of the method the websites provides to do the verification. 
   
   
-  1. If you have chose `URL prefix` , the first option would be the easiest way to do that. All you need to do is to download an html file and upload to your website root folder. But unforunately I tried many times to do the uploading, google failed to identify the file, even though I can access it via url. So I use the second option to accomplish the verification. The goal is to add an html tag to your homepage `<head>` tag. Below steps apply to minima theme.
+1. If you have chose `URL prefix` , the first option would be the easiest way to do that. All you need to do is to download an html file and upload to your website root folder. But unforunately I tried many times to do the uploading, google failed to identify the file, even though I can access it via url. So I use the second option to accomplish the verification. The goal is to add an html tag to your homepage `<head>` tag. Below steps apply to minima theme.
    
      - Copy `_includes/head.html` from github to your website if it is not there.
      - Edit `head.html` to add the tag provided by google by google in between the `<head>` tag like below.
