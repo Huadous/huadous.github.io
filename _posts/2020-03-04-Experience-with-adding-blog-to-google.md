@@ -30,22 +30,22 @@ The address you put here should be the root folder of your website, which is the
 * Choose one of the method the websites provides to do the verification. 
   
   
-1. If you have chose `URL prefix` , the first option would be the easiest way to do that. All you need to do is to download an html file and upload to your website root folder. But unforunately I tried many times to do the uploading, google failed to identify the file, even though I can access it via url. 
+  1. If you have chose `URL prefix` , the first option would be the easiest way to do that. All you need to do is to download an html file and upload to your website root folder. But unforunately I tried many times to do the uploading, google failed to identify the file, even though I can access it via url. 
    
-So I use the second option to accomplish the verification. The goal is to add an html tag to your homepage `<head>` tag. Below steps apply to minima theme.
+  So I use the second option to accomplish the verification. The goal is to add an html tag to your homepage `<head>` tag. Below steps apply to minima theme.
 
-  - Copy `_includes/head.html` from github to your website if it is not there.
-  - Edit `head.html` to add the tag provided by google by google in between the `<head>` tag like below.
+     - Copy `_includes/head.html` from github to your website if it is not there.
+     - Edit `head.html` to add the tag provided by google by google in between the `<head>` tag like below.
        
 
 
-  - Click `verify` button, and you are done with it. It may take few minutes for the meta data to take effect, so be a little patient.  
-![verify_success]({{"/assets/img/sample/verify_success.png" | relative_url}})
-  - It may take hours to few days until you can see the performance about your website in the console.
+     - Click `verify` button, and you are done with it. It may take few minutes for the meta data to take effect, so be a little patient.  
+    ![verify_success]({{"/assets/img/sample/verify_success.png" | relative_url}})
+     - It may take hours to few days until you can see the performance about your website in the console.
 
 
 
-1. If you have chose `Domain`, you can do this: 
+  2. If you have chose `Domain`, you can do this: 
 
 
 ## Site Map
