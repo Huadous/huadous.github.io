@@ -10,13 +10,13 @@ tags: [Google search Console, GitHub Pages, Jekyll, Gem]
 
 There is no point to make a website if it cannot be indexed on Google, so lets take a look at how to make your site and pages appear on Google search result.
 
-## Google search console
+## Google Search Console
 ---
 
 You need to use this system provided by Google to accomplish this task. Simply log in to this [**system**](https://search.google.com/search-console/about) with your Google account, and click `Start now`.
 
 
-## Owner verification
+## Owner Verification
 ---
 
 The first step is to let Google know you are the owner of a site, which is identified as a property here. Obviously, you can have a lot of properties.
@@ -40,22 +40,22 @@ The first step is to let Google know you are the owner of a site, which is ident
    
         *  Copy `_includes/head.html` from github to your website if it is not there.  
         * Edit `head.html` to add the tag provided by google by google in between the `<head>` tag like below.
-        {% raw %}
-        ```html
-        <head>
-          <meta charset="utf-8">
-          <meta http-equiv="X-UA-Compatible" content="IE=edge">
-          <meta name="viewport" content="width=device-width, initial-scale=1">
-          {%- seo -%}
-          <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-          {%- feed_meta -%}
-          {%- if jekyll.environment == 'production' and site.google_analytics -%}
-            {%- include google-analytics.html -%}
-          {%- endif -%}
-          <meta name="google-site-verification" content="P5JvIrpAzGuAYMCBT3_-1TEpWsUUoQAaYK3B6hgaauA" />
-        </head>
-        ```
-        {% endraw %}
+            {% raw %}
+            ```html
+            <head>
+              <meta charset="utf-8">
+              <meta http-equiv="X-UA-Compatible" content="IE=edge">
+              <meta name="viewport" content="width=device-width, initial-scale=1">
+              {%- seo -%}
+              <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+              {%- feed_meta -%}
+              {%- if jekyll.environment == 'production' and site.google_analytics -%}
+                {%- include google-analytics.html -%}
+              {%- endif -%}
+              <meta name="google-site-verification" content="P5JvIrpAzGuAYMCBT3_-1TEpWsUUoQAaYK3B6hgaauA" />
+            </head>
+            ```
+            {% endraw %}
 
         * Click `verify` button, and you are done with it. It may take few minutes for the meta data to take effect, so be a little patient.
         ![verify_success]({{"/assets/img/sample/verified.jpg" | relative_url}})
@@ -74,11 +74,11 @@ Github Pages can generate a site map automatically for your site, just simply fo
 
 1. Add `gem 'jekyll-sitemap'` to your site's Gemfile and run `bundle`.
 2. Add the following to your site's `_config.yml`:
-
-        url: "https://example.com" # the base hostname & protocol for your site
-        plugins:
-          - jekyll-sitemap
-
+    ```
+    url: "https://example.com" # the base hostname & protocol for your site
+    plugins:
+     - jekyll-sitemap
+    ```
 3. a file named `sitemap.xml` will generate automatically at the root folder of your site, such as `https://huadous.com/sitemap.xml` for this site. You shall be able to check it out via this url in browser
 
 Then, you can submit the address of your sitemap file to Google Search Engine, prompting the Googlebot to analyze your site for indexing.
