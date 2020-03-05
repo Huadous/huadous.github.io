@@ -68,9 +68,9 @@ Github Pages can generate a site map automatically for your site, just simply fo
 
 3. a file named `sitemap.xml` will generate automatically at the root folder of your site, such as `https://huadous.com/sitemap.xml` for this site. You shall be able to check it out via this url in browser
 
-  Then, you can submit the address of your sitemap file to Google Search Engine, prompting the Googlebot to analyze your site for indexing.
+     Then, you can submit the address of your sitemap file to Google Search Engine, prompting the Googlebot to analyze your site for indexing.
 
-  For my case, I could not search my site via site name until **2 days** after I submit the sitemap file. And it is **5 dyas** for posts to be searchable via title name. It takes some patience.
+     For my case, I could not search my site via site name until **2 days** after I submit the sitemap file. And it is **5 dyas** for posts to be searchable via title name. It takes some patience.
 
 
 # URL Inspection
