@@ -26,7 +26,7 @@ The first step is to let Google know you are the owner of a site, which is ident
 
 ![select_property_type]({{ "/assets/img/sample/select_property_type.png" | relative_url }})
 
-  The address you put here should be the root folder of your website, which is the place your  `index.html` resides. If you have multiple sites under your github pages, you can register one property for each of them.
+     The address you put here should be the root folder of your website, which is the place your  `index.html` resides. If you have multiple sites under your github pages, you can register one property for each of them.
 
 
 * Choose one of the method the websites provides to do the verification. 
