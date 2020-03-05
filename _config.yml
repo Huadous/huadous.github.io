@@ -83,7 +83,7 @@ toc: true
 
 paginate: 10
 
-markdown: GMF
+markdown: kramdown
 
 
 highlighter: rouge
