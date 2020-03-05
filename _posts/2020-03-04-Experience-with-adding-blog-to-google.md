@@ -75,7 +75,7 @@ Github Pages can generate a site map automatically for your site, just simply fo
 1. Add `gem 'jekyll-sitemap'` to your site's Gemfile and run `bundle`.
 2. Add the following to your site's `_config.yml`:
    
-```html
+  ```html
 url: "https://example.com" # the base hostname & protocol for your site
 plugins:
   - jekyll-sitemap
