@@ -23,6 +23,9 @@ The first step is to let Google know you are the owner of a site, which is ident
 
 
 * Select `Domain` or `URL prefix` as your property type, and input your website address, e.g. `https://huadous.com`
+  
+  The address you put here should be the root folder of your website, which is the place your  `index.html` resides. If you have multiple sites under your github pages, you can register one property for each of them.
+
 ![select_property_type]({{ "/assets/img/sample/select_property_type.png" | relative_url }})
 The address you put here should be the root folder of your website, which is the place your  `index.html` resides. If you have multiple sites under your github pages, you can register one property for each of them.
 
