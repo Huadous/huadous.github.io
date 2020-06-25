@@ -14,9 +14,9 @@ layout: page
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </h1>
     <div class="post-content">
-      <!--p>
-      {{ post.content | strip_html | truncate: 200 }}
-      </p-->
+      <p>
+      {{ post.content | strip_html | truncate: 15 }}
+      </p>
     </div>
 
     <div class="post-meta text-muted pt-1">
