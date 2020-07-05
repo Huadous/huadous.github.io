@@ -2,7 +2,7 @@
 title: "Data Structures and Algorithm Analysis in C"
 date: 2020-04-11 14:38:00 +0800
 categories: [Learning, Self-study]
-tags: [Data Structures, Algorithm, C]
+tags: [Data Structures, Algorithms, C]
 ---
 # Chapter 1 Introduction
 ***
