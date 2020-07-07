@@ -1,6 +1,6 @@
 ---
-title: "Algorithms Part 1 week 1"
-date: 2020-07-07 14:144:00 +0800
+title: "Algorithms Part 1 week 1 1.4 Analysis of Algorithms"
+date: 2020-07-07 14:44:00 +0800
 categories: [Learning, Self-study]
 tags: [Algorithms, Java]
 ---
