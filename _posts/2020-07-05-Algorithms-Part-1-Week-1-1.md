@@ -27,7 +27,7 @@ i.e. union(3,4) $\Rightarrow$ union the site 3 and 4 together. connected(3,4) $\
 
 Q. Is there a path connecting $p$ and $q$?
 
-![image-20200703145248251](huadous.com/assets/img/sample/image-20200703145248251.png)
+![image-20200703145248251](https://huadous.com/assets/img/sample/image-20200703145248251.png)
 
 A.Yes.
 
@@ -45,7 +45,7 @@ We assume "is connected to" is an equivalence relation:
 
 **Connected components.** Maximal set of objects that are mutually connected.
 
-![image-20200703145940341](huadous.com/assets/img/sample/image-20200703145940341.png)
+![image-20200703145940341](https://huadous.com/assets/img/sample/image-20200703145940341.png)
 
 &emsp;
 
@@ -57,7 +57,7 @@ We assume "is connected to" is an equivalence relation:
 
 **Union command.** Replace components containing two objects with their union.
 
-![image-20200703150120177](huadous.com/assets/img/sample/image-20200703150120177.png)
+![image-20200703150120177](https://huadous.com/assets/img/sample/image-20200703150120177.png)
 
 &emsp;
 
@@ -132,7 +132,7 @@ public class UF
 * Interger array id[ ] of length N.
 * Interpretation: $p$ and $q$ are connected iff (if and only if) they have same id.
 
-![image-20200703152714014](huadous.com/assets/img/sample/image-20200703152714014.png)
+![image-20200703152714014](https://huadous.com/assets/img/sample/image-20200703152714014.png)
 
 **Find.** Check if $p$ and $q$ have the same id, i.e. id[6] = 0; id[1] =1, thus, 6 and 1 are not connected.
 
@@ -146,11 +146,11 @@ public class UF
 
 **Quick-find overview**
 
-![image-20200703161547340](huadous.com/assets/img/sample/image-20200703161547340.png)
+![image-20200703161547340](https://huadous.com/assets/img/sample/image-20200703161547340.png)
 
 **Quick-find trace**
 
-![image-20200703161448353](huadous.com/assets/img/sample/image-20200703161448353.png)
+![image-20200703161448353](https://huadous.com/assets/img/sample/image-20200703161448353.png)
 
 &emsp;
 
@@ -223,7 +223,7 @@ In particular, suppose that we use quick-find for the dynamic connectivity probl
 * Interpretation: id[i] is parent of i.
 * **Root** of i is $id[id[id[...id[i]...]]]$. (keep going until it doesn't change algorithm ensures no cycles) 
 
-![image-20200703160843769](huadous.com/assets/img/sample/image-20200703160843769.png)
+![image-20200703160843769](https://huadous.com/assets/img/sample/image-20200703160843769.png)
 
 **Find.** Check if $p$ and $q$ have the same root.
 
@@ -235,11 +235,11 @@ In particular, suppose that we use quick-find for the dynamic connectivity probl
 
 ---
 
-![image-20200703161726907](huadous.com/assets/img/sample/image-20200703161726907.png)
+![image-20200703161726907](https://huadous.com/assets/img/sample/image-20200703161726907.png)
 
 **Quick-union trace**
 
-![image-20200703161823608](huadous.com/assets/img/sample/image-20200703161823608.png)
+![image-20200703161823608](https://huadous.com/assets/img/sample/image-20200703161823608.png)
 
 &emsp;
 
@@ -286,7 +286,7 @@ public class QuickUnionUF
 
 **Quick-union worst case**
 
-![image-20200703165433362](huadous.com/assets/img/sample/image-20200703165433362.png)
+![image-20200703165433362](https://huadous.com/assets/img/sample/image-20200703165433362.png)
 
 >**Definition.** The size of a tree is its number of nodes. The depth of a node in a tree is the number of links on the path from it to the root. The height of a tree is the maximum depth among its nodes.
 
@@ -333,7 +333,7 @@ $†$  includes cost of finding roots
 * Keep track of size of each tree (number of objects).
 * Balance by linking root of smaller tree to root of **larger tree** (reasonable alternatives: union by height or "rank").
 
-![image-20200703175339554](huadous.com/assets/img/sample/image-20200703175339554.png)
+![image-20200703175339554](https://huadous.com/assets/img/sample/image-20200703175339554.png)
 
 &emsp;
 
@@ -341,7 +341,7 @@ $†$  includes cost of finding roots
 
 ---
 
-![image-20200703205326809](huadous.com/assets/img/sample/image-20200703205326809.png)
+![image-20200703205326809](https://huadous.com/assets/img/sample/image-20200703205326809.png)
 
 &emsp;
 
@@ -411,11 +411,11 @@ public class WeightedQuickUnionUF
 >
 > $$1+\log_{2}{i}=\log_{2}{i+i}\leq\log_{2}{i+j}=\log_{2}{k}$$
 
-![image-20200703220521715](huadous.com/assets/img/sample/image-20200703220521715.png)
+![image-20200703220521715](https://huadous.com/assets/img/sample/image-20200703220521715.png)
 
 **Quick-union and weighted quick-union(100 sites, 88 union( ) operations)**
 
-![image-20200703215926138](huadous.com/assets/img/sample/image-20200703215926138.png)
+![image-20200703215926138](https://huadous.com/assets/img/sample/image-20200703215926138.png)
 
 > **Corollary.** For weighted quick-union with **N** sites, the worst-case order of growth of the cost of $find(~)$, $connected(~)$, and $union(~)$ is $\log_{2}{N}$.
 >

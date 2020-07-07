@@ -107,7 +107,7 @@ $$T(N)=aN^3$$
 
 > A straight line in equivalent to the hypothesis that the data fits the equation $T(N)=aN^b$. Such a fit is known as a *power law*. A great many natural and synthetic phenomena are described by power law, and it is reasonable to hypothesis that the running time of a program does, as well.
 
-![image-20200705183129824](huadous.com/assets/img/sample/image-20200705183129824.png)
+![image-20200705183129824](https://huadous.com/assets/img/sample/image-20200705183129824.png)
 
 > **log-log plot** is that the scale of the two coordinate axes of the graph are logarithmic scales. In this way, the exponential curve in the form of $y=ax^b$ appears as a straight line in the log-log plot , $b$ is the slope of this line.
 >
@@ -314,7 +314,7 @@ Ex 2. $\frac{1}{6}N^3+100N^{\frac{4}{3}}+56~\sim~\frac{1}{6}N^3$
 
 Ex 3. $\frac{1}{6}N^3-\frac{1}{2}N^2+\frac{1}{3}N~\sim~\frac{1}{6}N^3$
 
-![image-20200705215817162](huadous.com/assets/img/sample/image-20200705215817162.png)
+![image-20200705215817162](https://huadous.com/assets/img/sample/image-20200705215817162.png)
 
 **Technical definition.** $f(N)\sim g(N)$ means $\displaystyle\lim_{N\to\infty}\frac{f(N)}{g(N)}=1$
 
@@ -445,7 +445,7 @@ $$1,~\log{N},~N,~N\log{N},~N^2,~N^3,~and~2^N$$
 
 suffices to describe order-of-growth of typical algorithms.
 
-![image-20200706004700131](huadous.com/assets/img/sample/image-20200706004700131.png)
+![image-20200706004700131](https://huadous.com/assets/img/sample/image-20200706004700131.png)
 
 | order of growth |    name     |                    typical code framework                    |    description     |      example      | T(2N)/T(N) |
 | :-------------: | :---------: | :----------------------------------------------------------: | :----------------: | :---------------: | :--------: |
@@ -529,7 +529,7 @@ $\lg N$								$\leq T({\frac{N}{N}})+1+1+\dots+1$				 stop applying, T(1) = 1
 * Step 1: $N^2$ with insertion sort.
 * Step 2 $N^2\log{N}$ with binary search.
 
-![image-20200706143603681](huadous.com/assets/img/sample/image-20200706143603681.png)
+![image-20200706143603681](https://huadous.com/assets/img/sample/image-20200706143603681.png)
 
 **Guiding principle.** Typically, better order of growth $\Rightarrow$ faster in practice.
 
@@ -767,9 +767,9 @@ $\lg N$								$\leq T({\frac{N}{N}})+1+1+\dots+1$				 stop applying, T(1) = 1
 
 **Padding.** Each object uses a multiple of 8 bytes.
 
-![image-20200707130733573](huadous.com/assets/img/sample/image-20200707130733573.png)
+![image-20200707130733573](https://huadous.com/assets/img/sample/image-20200707130733573.png)
 
-![image-20200707130824239](huadous.com/assets/img/sample/image-20200707130824239.png)
+![image-20200707130824239](https://huadous.com/assets/img/sample/image-20200707130824239.png)
 
 **Total memory usage for a data type value:**
 
