@@ -1,5 +1,5 @@
 ---
-title: "Algorithms Part 1 week 1 1.5 Union-find"
+title: "Algorithms Part 1 week 1    1.5 Union-find"
 date: 2020-07-05 12:19:00 +0800
 categories: [Learning, Self-study]
 tags: [Algorithms, Java]
