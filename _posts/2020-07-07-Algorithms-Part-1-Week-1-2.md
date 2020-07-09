@@ -109,7 +109,7 @@ $$T(N)=aN^3$$
 
 ![image-20200705183129824](https://huadous.com/assets/img/sample/image-20200705183129824.png)
 
-> **log-log plot** is that the scale of the two coordinate axes of the graph are logarithmic scales. In this way, the exponential curve in the form of $y=ax^b$ appears as a straight line in the log-log plot , $b$ is the slope of this line.
+> **log-log plot** is that the scale of the two coordinate axes of the graph are logarithmic scales. In this way, the exponential curve in the form of $y=ax^b$ appears as a straight line in the log-log plot , $b$ is the slope of this lines.
 >
 > Taking both sides of $y=ax^b$ logarithmically, we get: $\lg(y) = \lg(a) + b\lg(x)$, let $y'= \lg(y)$, $x'= \lg(x)$ , Then in the log-log plot, what you get is a straight line with $y'= a'+ bx'$, the length unit of the number axis uses the units of $y'$and $x'$.
 
