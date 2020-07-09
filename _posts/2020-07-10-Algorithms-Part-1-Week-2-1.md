@@ -342,11 +342,11 @@ public String pop()
 * $\sim32N$ when one-quarter full.
 
 ```java
-public class ResizingArrayStackOfStrings		\\ 8 bytes(reference to array)
-{																						\\ 24 bytes(array overhead)
-    private String[] s;											\\ 8 bytes × array size
-    private int N = 0;											\\ 4 bytes (int)
-    …																				\\ 4 bytes (padding)
+public class ResizingArrayStackOfStrings		// 8 bytes(reference to array)
+{																						// 24 bytes(array overhead)
+    private String[] s;											// 8 bytes × array size
+    private int N = 0;											// 4 bytes (int)
+    …																				// 4 bytes (padding)
 }
 ```
 
