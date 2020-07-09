@@ -1,5 +1,5 @@
 ---
-title: "Algorithms Part 1 week 2    1.3 Bags, Queues, and Stacks"
+title: "<Algorithms Part 1 week 2> 1.3 Bags, Queues, and Stacks"
 date: 2020-07-10 01:11:00 +0800
 categories: [Learning, Self-study]
 tags: [Algorithms, Java]
