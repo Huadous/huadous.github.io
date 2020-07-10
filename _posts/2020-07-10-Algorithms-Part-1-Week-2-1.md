@@ -736,7 +736,7 @@ Generate random open sits in an $N-by-N$ percolation system.
 
 **Goal.** Evaluate infix expressions.
 
-$(1+((2+3)*(4*5)))$
+$$(1+((2+3)*(4*5)))$$
 
 **Two-stack algorithm.**[E. W. Dijkstra]
 
