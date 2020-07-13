@@ -1,7 +1,7 @@
 ---
 title: "[Algorithms P1] 1.4 Analysis of Algorithms"
 date: 2020-07-07 14:44:00 +0800
-categories: [Learning, Self-study]
+categories: [Learning, Coursera, Algorithms(Princeton)]
 tags: [Algorithms, Java]
 ---
 # 1.4 ANALYSIS OF ALGORITHMS
