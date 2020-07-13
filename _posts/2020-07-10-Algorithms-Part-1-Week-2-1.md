@@ -1,7 +1,7 @@
 ---
 title: "[Algorithms P1] 1.3 Bags, Queues, and Stacks"
 date: 2020-07-10 01:11:00 +0800
-categories: [Learning, Coursera, Algorithms(Princeton)]
+categories: [Learning, Self-study]
 tags: [Algorithms, Java]
 ---
 # 1.3 BAGS, QUEUES, AND STACKS

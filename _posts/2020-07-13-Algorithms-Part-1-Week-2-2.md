@@ -1,7 +1,7 @@
 ---
 title: "[Algorithms P1] 2.1 Elementary Sorts"
 date: 2020-07-14 02:22:00 +0800
-categories: [Learning, Coursera, Algorithms(Princeton)]
+categories: [Learning, Coursera]
 tags: [Algorithms, Java]
 ---
 # 2.1 ELEMENTARY SORTS

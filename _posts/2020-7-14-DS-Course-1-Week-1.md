@@ -1,9 +1,10 @@
 ---
 title: "(ADSWP)[Introduction to Data Science in Python] week 1 Python Fundamentals"
 date: 2020-07-14 02:30:00 +0800
-categories: [Learning, Coursera, Applied Data Science with Python, Introduction to Data Science in Python]
+categories: [Learning, Coursera]
 tags: [Data Science, Python]
 ---
+
 
 ---
 
@@ -86,6 +87,7 @@ a(1,2)
     3
 
 &emsp;
+
 # The Python Programming Language: Types and Sequences
 
 &emsp;
@@ -2984,4 +2986,141 @@ for i, j in zip(test, test2):
     [1 2 8] + [ 1  4 64] = [ 2  6 72]
     [0 3 0] + [0 9 0] = [ 0 12  0]
     [4 3 8] + [16  9 64] = [20 12 72]
+
+&emsp;
+
+# Week One quiz
+
+1. **Python is an example of an **
+
+* Interpreted language	$\checkmark$
+* Declarative language
+* Operating system language
+* Data science language
+* Low level language
+
+> This material was covered in the "Python Functions" lecture.
+
+&emsp;
+
+2. **Data science is a**
+
+* Branch of statistics
+* Branch of computer science
+* Branch of artificial intelligence
+* Interdisciplinary, made up of all of the above	$\checkmark$
+
+> This material was covered in the "Data Science" lecture.
+
+&emsp;
+
+3. **Data visualization is not a part of data science.**
+
+* True
+* False	$\checkmark$
+
+> This material was covered in the "Data Science" lecture
+
+&emsp;
+
+4. **Which bracketing style does Python use for tuples?**
+
+* { }
+* (  )	$\checkmark$
+* [  ]
+
+> This material was covered in the "Python Types and Sequences" lecture.
+
+&emsp;
+
+5. **In Python, strings are considered Mutable, and can be changed.**
+
+* False	$\checkmark$
+* True
+
+> This material was covered in the "Python More on Strings" lecture.
+
+&emsp;
+
+6. **What is the result of the following code: **`['a', 'b', 'c'] + [1, 2, 3]`
+
+* `['a', 'b', 'c', 1, 2, 3]`	$\checkmark$
+* TyprError: Cannot convert list(int) to list(str)
+* `['a1', 'b2', 'c3']`
+* `[['a', 'b', 'c'], [1, 2, 3]]`
+
+> This material was covered in the "Python Types and Sequences" lecture.
+
+&emsp;
+
+7. **String slicing is**
+
+* A way to make string mutable in python
+* A way to reduce the size on disk of strings in python
+* A way to make a substring of a string in python	$\checkmark$
+
+> This material was covered in the "Python More on Strings" lecture
+
+&emsp;
+
+8. **When you create a lambda, what type is returned? E.g. type(lambda x: x+1) returns**
+
+* `<class 'function'>`	$\checkmark$
+* `<class 'type'>`
+* `<class 'int'`
+* `<class 'lambda'>`
+
+> This material was covered in the "Advanced Python Lambda and List Comprehensions" lecture.
+
+&emsp;
+
+9. **The epoch refers to**
+
+* January 1, year 0
+* January 1, year 1970	$\checkmark$
+* January 1, year 1980
+* January 1, yaer 2000
+
+> This material was covered in the "Python Dates and Times" lecture.
+
+&emsp;
+
+10. **This code,** `[x**2 for x in range(10)]`, **is an example of a** 
+
+* List comprehension	$\checkmark$
+* Sequence comprehension
+* Tuple comprehension
+* List multiplication
+
+> This material was covered in the "Advanced Python Lambda and List Comprehensions" lecture.
+
+&emsp;
+
+11. **Given a 6x6 NumPy array r, which of the following options would slice the shaded elements?**
+
+![image-20200714025904828](https://huadous.com/assets/img/sample/image-20200714025904828.png)
+
+* `r[::7]`
+* `r[:,::7]`
+* `r[0:6,::-7]`
+* `r.reshape(36)[::7]`	$\checkmark$
+
+> You could also use np.diag(r). This material was covered in "Advanced Python Demonstration: The Numerical Python Library (NumPy)"
+
+&emsp;
+
+12. **Given a 6x6 NumPy array r, which of the following options would slice the shaded elements?**
+
+	![image-20200714030121902](https://huadous.com/assets/img/sample/image-20200714030121902.png)
+
+	* `r[2::2,2::2]`
+	* `r[2:4,2:4]`	$\checkmark$
+	* `r[::2,::2]`
+	* `r[[2,3],[2,3]]`
+
+	> This material was covered in "Advanced Python Demonstration: The Numerical Python Library (NumPy)"
+
+	&emsp;
+
+
 
