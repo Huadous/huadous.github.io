@@ -663,7 +663,7 @@ The **convex hull** of a set of $N$ points is the smallest permeter fence enclos
 
 &emsp;
 
-==Implementing ccw==
+**Implementing ccw**
 
 ---
 
