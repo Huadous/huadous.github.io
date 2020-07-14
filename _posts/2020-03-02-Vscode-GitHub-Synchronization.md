@@ -5,7 +5,7 @@ categories: [Learning, Self-study]
 tags: [Vscode, GitHub, Sync]
 toc: true
 seo:
-  date_modified: 2020-03-02 17:48:52 +0800
+  date_modified: 2020-03-05 16:34:09 +0800
 ---
 
 ## Creat Your Personal Token

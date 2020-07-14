@@ -1,8 +1,10 @@
 ---
-title: "[Algorithms P1] 1.5 Union-find"
+title: '[Algorithms P1] 1.5 Union-find'
 date: 2020-07-05 12:19:00 +0800
 categories: [Learning, Coursera]
 tags: [Algorithms, Java]
+seo:
+  date_modified: 2020-07-14 13:22:15 +0800
 ---
 # 1.5 UNION-FIND
 

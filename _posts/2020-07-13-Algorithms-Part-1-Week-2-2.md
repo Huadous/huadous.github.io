@@ -1,8 +1,10 @@
 ---
-title: "[Algorithms P1] 2.1 Elementary Sorts"
+title: '[Algorithms P1] 2.1 Elementary Sorts'
 date: 2020-07-14 02:22:00 +0800
 categories: [Learning, Coursera]
 tags: [Algorithms, Java]
+seo:
+  date_modified: 2020-07-14 13:44:54 +0800
 ---
 # 2.1 ELEMENTARY SORTS
 

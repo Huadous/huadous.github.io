@@ -1,8 +1,10 @@
 ---
-title: "Experience about how to make Jekyll Github Pages appear on Google search result"
+title: Experience about how to make Jekyll Github Pages appear on Google search result
 date: 2020-03-04 14:44:00 +0800
 categories: [Learning, Self-study]
 tags: [Google search Console, GitHub Pages, Jekyll, Gem]
+seo:
+  date_modified: 2020-03-05 16:34:09 +0800
 ---
 
 >From [Victor's Playground](https://victor2code.github.io/blog/2019/07/04/jekyll-github-pages-appear-on-Google.html)
