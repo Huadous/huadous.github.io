@@ -3,6 +3,8 @@ title: Boyer-Moore algorithm(string match)
 date: 2020-08-22 01:23:00 +0800
 categories: [Learning, leetcode]
 tags: [GitHub, String, Algorithm]
+seo:
+  date_modified: 2020-08-22 01:33:56 +0800
 ---
 # Boyer-Moore algorithm
 
