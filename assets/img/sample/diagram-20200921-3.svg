@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="662" height="342" style="width:662px;height:342px;background:0 0" fill="none">
+    <svg class="main-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="341" height="390" transform="translate(163 -33)">
+        <path fill="#fff" d="M0 0h341v390H0z"/>
+        <defs>
+            <clipPath id="a" class="plotclip">
+                <path d="M0 0h241v290H0z"/>
+            </clipPath>
+        </defs>
+        <g class="cartesianlayer">
+            <g class="subplot xy">
+                <g class="gridlayer">
+                    <g class="x">
+                        <path class="xgrid crisp" d="M95.19 50v290M155.44 50v290M215.69 50v290M275.94 50v290" stroke="#eee"/>
+                    </g>
+                    <g class="y">
+                        <path class="ygrid crisp" d="M50 296.5h241M50 238.5h241M50 180.5h241M50 122.5h241M50 64.5h241" stroke="#eee"/>
+                    </g>
+                </g>
+                <g class="plot" transform="translate(50 50)" clip-path="url('#a')">
+                    <g class="heatmaplayer mlayer">
+                        <image xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" height="290" width="241" xlink:href="data:image/png;base64,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"/>
+                    </g>
+                </g>
+                <g class="xaxislayer-above">
+                    <path class="xtick ticks crisp" d="M95.19 341v5M155.44 341v5M215.69 341v5M275.94 341v5" stroke="#444"/>
+                    <text text-anchor="middle" y="360.4" transform="translate(95.19)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        2
+                    </text>
+                    <text text-anchor="middle" y="360.4" transform="translate(155.44)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        4
+                    </text>
+                    <text text-anchor="middle" y="360.4" transform="translate(215.69)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        6
+                    </text>
+                    <text text-anchor="middle" y="360.4" transform="translate(275.94)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        8
+                    </text>
+                </g>
+                <g class="yaxislayer-above">
+                    <path class="ytick ticks crisp" d="M49 296.5h-5M49 238.5h-5M49 180.5h-5M49 122.5h-5M49 64.5h-5" stroke="#444"/>
+                    <text text-anchor="end" x="41.6" y="4.2" transform="translate(0 296.5)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        2
+                    </text>
+                    <text text-anchor="end" x="41.6" y="4.2" transform="translate(0 238.5)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        4
+                    </text>
+                    <text text-anchor="end" x="41.6" y="4.2" transform="translate(0 180.5)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        6
+                    </text>
+                    <text text-anchor="end" x="41.6" y="4.2" transform="translate(0 122.5)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        8
+                    </text>
+                    <text text-anchor="end" x="41.6" y="4.2" transform="translate(0 64.5)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        10
+                    </text>
+                </g>
+            </g>
+        </g>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" class="role-diagram-draw-area">
+        <g class="shapes-region" stroke="#000">
+            <g class="composite-shape">
+                <rect class="real" rx="0" ry="0" x="163" y="-33" width="340.5" height="389.762" stroke="none"/>
+            </g>
+        </g>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="660" height="340" style="width:660px;height:340px;background:0 0" font-family="Asana-Math,Asana"/>
+</svg>

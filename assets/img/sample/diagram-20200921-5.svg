@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="662" height="312" style="width:662px;height:312px;background:0 0" fill="none">
+    <svg class="main-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="507" height="393" transform="translate(86 -30)">
+        <path fill="#fff" d="M0 0h507v393H0z"/>
+        <defs>
+            <clipPath id="a" class="plotclip">
+                <path d="M0 0h347v263H0z"/>
+            </clipPath>
+        </defs>
+        <g class="cartesianlayer">
+            <g class="subplot xy">
+                <g class="gridlayer">
+                    <g class="x">
+                        <path class="xgrid crisp" d="M145.06 50v263M231.81 50v263M318.56 50v263M405.31 50v263" stroke="#eee"/>
+                    </g>
+                    <g class="y">
+                        <path class="ygrid crisp" d="M80 291.08h347M80 247.25h347M80 203.42h347M80 159.58h347M80 115.75h347M80 71.92h347" stroke="#eee"/>
+                    </g>
+                </g>
+                <g class="plot" transform="translate(80 50)" clip-path="url('#a')">
+                    <g class="heatmaplayer mlayer">
+                        <image xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" height="263" width="347" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVsAAAEHCAYAAAAAg+VhAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAABW6ADAAQAAAABAAABBwAAAAAqVy7KAAAKL0lEQVR4Ae3WsW1bSRiF0eVWpB4YuIploFRVqBXmLIfYgC9nEQpoyAb+DmbgDz6OxsnM1bkPFzz9/9+P1z+Rf4/bPZL0d8zz9ZLJ+3x7z2QVlEBR4N9iaJkJECBQEzC2tcbkJUAgKWBsk7UJTYBATcDY1hqTlwCBpICxTdYmNAECNQFjW2tMXgIEkgLGNlmb0AQI1ASMba0xeQkQSAoY22RtQhMgUBMwtrXG5CVAIClgbJO1CU2AQE3A2NYak5cAgaSAsU3WJjQBAjUBY1trTF4CBJICxjZZm9AECNQEjG2tMXkJEEgKGNtkbUITIFATMLa1xuQlQCApYGyTtQlNgEBNwNjWGpOXAIGkgLFN1iY0AQI1AWNba0xeAgSSAsY2WZvQBAjUBIxtrTF5CRBIChjbZG1CEyBQEzC2tcbkJUAgKWBsk7UJTYBATcDY1hqTlwCBpICxTdYmNAECNQFjW2tMXgIEkgLGNlmb0AQI1ASMba0xeQkQSAoY22RtQhMgUBMwtrXG5CVAIClgbJO1CU2AQE3A2NYak5cAgaSAsU3WJjQBAjUBY1trTF4CBJICxjZZm9AECNQEjG2tMXkJEEgKGNtkbUITIFATMLa1xuQlQCApYGyTtQlNgEBN4HQcx6sS+uvzoxL1V87H7Z7Je75eMlm/gz7f3lN5hSXgl61vgAABAhsEjO0GZE8QIEDA2PoGCBAgsEHA2G5A9gQBAgSMrW+AAAECGwSM7QZkTxAgQMDY+gYIECCwQcDYbkD2BAECBIytb4AAAQIbBIztBmRPECBAwNj6BggQILBBwNhuQPYEAQIEjK1vgAABAhsEjO0GZE8QIEDA2PoGCBAgsEHA2G5A9gQBAgSMrW+AAAECGwSM7QZkTxAgQMDY+gYIECCwQcDYbkD2BAECBIytb4AAAQIbBIztBmRPECBAwNj6BggQILBBwNhuQPYEAQIEjK1vgAABAhsEjO0GZE8QIEDA2PoGCBAgsEHA2G5A9gQBAgSMrW+AAAECGwSM7QZkTxAgQMDY+gYIECCwQcDYbkD2BAECBIytb4AAAQIbBIztBmRPECBAwNj6BggQILBBwNhuQPYEAQIEjK1vgAABAhsEjO0GZE8QIEDA2PoGCBAgsEHA2G5A9gQBAgSMrW+AAAECGwSM7QZkTxAgQMDY+gYIECCwQeB0HMdrwzt/5RNfnx+Zv/txu2eyfgc9Xy+ZvM+390xWQdcJ+GW7ztbNBAgQGAFjOxQOBAgQWCdgbNfZupkAAQIjYGyHwoEAAQLrBIztOls3EyBAYASM7VA4ECBAYJ2AsV1n62YCBAiMgLEdCgcCBAisEzC262zdTIAAgREwtkPhQIAAgXUCxnadrZsJECAwAsZ2KBwIECCwTsDYrrN1MwECBEbA2A6FAwECBNYJGNt1tm4mQIDACBjboXAgQIDAOgFju87WzQQIEBgBYzsUDgQIEFgnYGzX2bqZAAECI2Bsh8KBAAEC6wSM7TpbNxMgQGAEjO1QOBAgQGCdgLFdZ+tmAgQIjICxHQoHAgQIrBMwtuts3UyAAIERMLZD4UCAAIF1AsZ2na2bCRAgMALGdigcCBAgsE7A2K6zdTMBAgRGwNgOhQMBAgTWCRjbdbZuJkCAwAgY26FwIECAwDoBY7vO1s0ECBAYAWM7FA4ECBBYJ2Bs19m6mQABAiNgbIfCgQABAusEjO06WzcTIEBgBIztUDgQIEBgnYCxXWfrZgIECIyAsR0KBwIECKwTMLbrbN1MgACBETC2Q+FAgACBdQLGdp2tmwkQIDACp+M4XvM/h79W4OvzI/W3P273TN7z9ZLJ+nx7z2StBfXLttaYvAQIJAWMbbI2oQkQqAkY21pj8hIgkBQwtsnahCZAoCZgbGuNyUuAQFLA2CZrE5oAgZqAsa01Ji8BAkkBY5usTWgCBGoCxrbWmLwECCQFjG2yNqEJEKgJGNtaY/ISIJAUMLbJ2oQmQKAmYGxrjclLgEBSwNgmaxOaAIGagLGtNSYvAQJJAWObrE1oAgRqAsa21pi8BAgkBYxtsjahCRCoCRjbWmPyEiCQFDC2ydqEJkCgJmBsa43JS4BAUsDYJmsTmgCBmoCxrTUmLwECSQFjm6xNaAIEagLGttaYvAQIJAWMbbI2oQkQqAkY21pj8hIgkBQwtsnahCZAoCZgbGuNyUuAQFLA2CZrE5oAgZqAsa01Ji8BAkkBY5usTWgCBGoCxrbWmLwECCQFjG2yNqEJEKgJGNtaY/ISIJAUMLbJ2oQmQKAmYGxrjclLgEBSwNgmaxOaAIGagLGtNSYvAQJJAWObrE1oAgRqAsa21pi8BAgkBYxtsjahCRCoCZyO43jVQstL4OvzI4PwuN0zWc/XSybrd9Dn23smr1+2maoEJUCgLGBsy+3JToBARsDYZqoSlACBsoCxLbcnOwECGQFjm6lKUAIEygLGttye7AQIZASMbaYqQQkQKAsY23J7shMgkBEwtpmqBCVAoCxgbMvtyU6AQEbA2GaqEpQAgbKAsS23JzsBAhkBY5upSlACBMoCxrbcnuwECGQEjG2mKkEJECgLGNtye7ITIJARMLaZqgQlQKAsYGzL7clOgEBGwNhmqhKUAIGygLEttyc7AQIZAWObqUpQAgTKAsa23J7sBAhkBIxtpipBCRAoCxjbcnuyEyCQETC2maoEJUCgLGBsy+3JToBARsDYZqoSlACBsoCxLbcnOwECGQFjm6lKUAIEygLGttye7AQIZASMbaYqQQkQKAsY23J7shMgkBEwtpmqBCVAoCxgbMvtyU6AQEbA2GaqEpQAgbKAsS23JzsBAhkBY5upSlACBMoCxrbcnuwECGQEjG2mKkEJECgLGNtye7ITIJARMLaZqgQlQKAsYGzL7clOgEBGwNhmqhKUAIGywOk4jlf5D5CdwJ8u8PX58adHnHyP233OhcP5einE/JXRL9tMVYISIFAWMLbl9mQnQCAjYGwzVQlKgEBZwNiW25OdAIGMgLHNVCUoAQJlAWNbbk92AgQyAsY2U5WgBAiUBYxtuT3ZCRDICBjbTFWCEiBQFjC25fZkJ0AgI2BsM1UJSoBAWcDYltuTnQCBjICxzVQlKAECZQFjW25PdgIEMgLGNlOVoAQIlAWMbbk92QkQyAgY20xVghIgUBYwtuX2ZCdAICNgbDNVCUqAQFnA2Jbbk50AgYyAsc1UJSgBAmUBY1tuT3YCBDICxjZTlaAECJQFjG25PdkJEMgIGNtMVYISIFAWMLbl9mQnQCAjYGwzVQlKgEBZwNiW25OdAIGMgLHNVCUoAQJlAWNbbk92AgQyAsY2U5WgBAiUBYxtuT3ZCRDICBjbTFWCEiBQFjC25fZkJ0AgI2BsM1UJSoBAWcDYltuTnQCBjICxzVQlKAECZQFjW25PdgIEMgLGNlOVoAQIlAWMbbk92QkQyAgY20xVghIgUBYwtuX2ZCdAICNgbDNVCUqAQFngJ3IqPQIz2abfAAAAAElFTkSuQmCC"/>
+                    </g>
+                </g>
+                <g class="xaxislayer-above">
+                    <path class="xtick ticks crisp" d="M145.06 314v5M231.81 314v5M318.56 314v5M405.31 314v5" stroke="#444"/>
+                    <text text-anchor="middle" y="333.4" transform="translate(145.06)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        2
+                    </text>
+                    <text text-anchor="middle" y="333.4" transform="translate(231.81)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        4
+                    </text>
+                    <text text-anchor="middle" y="333.4" transform="translate(318.56)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        6
+                    </text>
+                    <text text-anchor="middle" y="333.4" transform="translate(405.31)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        8
+                    </text>
+                </g>
+                <g class="yaxislayer-above">
+                    <path class="ytick ticks crisp" d="M79 291.08h-5M79 247.25h-5M79 203.42h-5M79 159.58h-5M79 115.75h-5M79 71.92h-5" stroke="#444"/>
+                    <text text-anchor="end" x="71.6" y="4.2" transform="translate(0 291.08)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        1
+                    </text>
+                    <text text-anchor="end" x="71.6" y="4.2" transform="translate(0 247.25)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        2
+                    </text>
+                    <text text-anchor="end" x="71.6" y="4.2" transform="translate(0 203.42)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        3
+                    </text>
+                    <text text-anchor="end" x="71.6" y="4.2" transform="translate(0 159.58)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        4
+                    </text>
+                    <text text-anchor="end" x="71.6" y="4.2" transform="translate(0 115.75)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        5
+                    </text>
+                    <text text-anchor="end" x="71.6" y="4.2" transform="translate(0 71.92)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        6
+                    </text>
+                </g>
+            </g>
+        </g>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" class="role-diagram-draw-area">
+        <g class="shapes-region" stroke="#000">
+            <g class="composite-shape">
+                <rect class="real" rx="0" ry="0" x="86" y="-30" width="506.5" height="393" stroke="none"/>
+            </g>
+        </g>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="660" height="310" style="width:660px;height:310px;background:0 0" font-family="Asana-Math,Asana"/>
+</svg>

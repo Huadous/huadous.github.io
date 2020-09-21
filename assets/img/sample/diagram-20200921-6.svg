@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="662" height="312" style="width:662px;height:312px;background:0 0" fill="none">
+    <svg class="main-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="447" height="393" transform="translate(110 -33)">
+        <path fill="#fff" d="M0 0h447v393H0z"/>
+        <defs>
+            <clipPath id="a" class="plotclip">
+                <path d="M0 0h287v263H0z"/>
+            </clipPath>
+        </defs>
+        <g class="cartesianlayer">
+            <g class="subplot xy">
+                <g class="gridlayer">
+                    <g class="x">
+                        <path class="xgrid crisp" d="M133.81 50v263M205.56 50v263M277.31 50v263M349.06 50v263" stroke="#eee"/>
+                    </g>
+                    <g class="y">
+                        <path class="ygrid crisp" d="M80 263.69h287M80 197.94h287M80 132.19h287M80 66.44h287" stroke="#eee"/>
+                    </g>
+                </g>
+                <g class="plot" transform="translate(80 50)" clip-path="url('#a')">
+                    <g class="heatmaplayer mlayer">
+                        <image xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" height="263" width="287" xlink:href="data:image/png;base64,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"/>
+                    </g>
+                </g>
+                <g class="xaxislayer-above">
+                    <path class="xtick ticks crisp" d="M133.81 314v5M205.56 314v5M277.31 314v5M349.06 314v5" stroke="#444"/>
+                    <text text-anchor="middle" y="333.4" transform="translate(133.81)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        2
+                    </text>
+                    <text text-anchor="middle" y="333.4" transform="translate(205.56)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        4
+                    </text>
+                    <text text-anchor="middle" y="333.4" transform="translate(277.31)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        6
+                    </text>
+                    <text text-anchor="middle" y="333.4" transform="translate(349.06)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        8
+                    </text>
+                </g>
+                <g class="yaxislayer-above">
+                    <path class="ytick ticks crisp" d="M79 263.69h-5M79 197.94h-5M79 132.19h-5M79 66.44h-5" stroke="#444"/>
+                    <text text-anchor="end" x="71.6" y="4.2" transform="translate(0 263.69)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        2
+                    </text>
+                    <text text-anchor="end" x="71.6" y="4.2" transform="translate(0 197.94)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        4
+                    </text>
+                    <text text-anchor="end" x="71.6" y="4.2" transform="translate(0 132.19)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        6
+                    </text>
+                    <text text-anchor="end" x="71.6" y="4.2" transform="translate(0 66.44)" style="white-space:pre" font-family="'Open Sans',verdana,arial,sans-serif" font-size="12" fill="#444">
+                        8
+                    </text>
+                </g>
+            </g>
+        </g>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" class="role-diagram-draw-area">
+        <g class="shapes-region" stroke="#000">
+            <g class="composite-shape">
+                <rect class="real" rx="0" ry="0" x="110" y="-33" width="446.5" height="393.328" stroke="none"/>
+            </g>
+        </g>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="660" height="310" style="width:660px;height:310px;background:0 0" font-family="Asana-Math,Asana"/>
+</svg>
