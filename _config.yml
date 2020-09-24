@@ -8,9 +8,9 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: Huadous                          # the main title
+title: Simon Hua                         # the main title
 
-tagline: A happy blog.  # it will display as the sub-title
+tagline: Probably, nobody.  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -20,7 +20,7 @@ description: >-                        # used by seo meta and the atom feed
 # Replace with your domain, e.g. 'https://username.github.io'
 url: 'https://huadous.com'
 
-author: YuHua                  # change to your full name
+author: Simon Hua                  # change to your full name
 
 avatar: /assets/img/sample/avatar.jpg   # support internet resources
 
@@ -31,7 +31,7 @@ twitter:
   username: Huadous            # change to your twitter username
 
 social:
-  name: YuHua                  # it will shows as the copyright owner in Footer
+  name: Simon Hua                  # it will shows as the copyright owner in Footer
   email: 455215897@qq.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -39,7 +39,7 @@ social:
     - https://github.com/Huadous       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+     - https://www.linkedin.com/in/username
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
