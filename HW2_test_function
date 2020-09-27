@@ -1,0 +1,25 @@
+function init_matrix(rows, cols)
+    A = zeros(Float64,rows,cols);
+    for i = 1:rows
+        for j = 1:cols
+            A[i,j] = (i-1)*sin(i-1)+(j-1)*cos(j-1)+sqrt(i+j-2);
+        end
+    end
+    return A;
+end
+
+
+function f(x)
+    y = x;
+    for i = 1:10
+        z = sin(x * i)/(2.0^i);
+        y =  y + z;
+    end
+    return y
+end
+
+
+
+function test(i,j)
+    return i*sin(i)+(j)*cos(j)+sqrt(i+j);
+end
