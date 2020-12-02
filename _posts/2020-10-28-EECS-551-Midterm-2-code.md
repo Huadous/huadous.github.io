@@ -6,6 +6,7 @@ tags: [EECS551, UMICH, Data Science, Linear Algebra, DSP, ML]
 seo:
   date_modified: 2020-12-02 09:43:31 +0800
 ---
+## inrange
 ```julia
 using BenchmarkTools: @btime
 using LinearAlgebra
@@ -44,6 +45,7 @@ test3 = X[:,1]*rand(1)[1];
 @show inrange(A,test2);
 @show inrange(A,test3);
 ```
+## bestdiag
 ```julia
 using LinearAlgebra
 """

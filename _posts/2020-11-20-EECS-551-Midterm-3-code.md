@@ -6,6 +6,7 @@ tags: [EECS551, UMICH, Data Science, Linear Algebra, DSP, ML]
 seo:
   date_modified: 2020-12-02 09:43:31 +0800
 ---
+## eigtiki
 ```julia
 """
 e = eigtiki(X, beta)
@@ -42,8 +43,8 @@ X = [1+im 0 0 0 ; 0 1-im 0 0 ; 0 0 3-2im 0; 0 0 0 0 ;0 0 0 0 ]
 @show data = svdvals(pinv(X'*X+beta*I))
 @show ret = eigtiki(X,beta)
 @show isapprox(ret[end:-1:1],data)
-
 ```
+## lr_circ
 ```julia
 using LinearAlgebra
 using FFTW
@@ -75,6 +76,7 @@ U,s,V = svd(Matrix(A))
 B = U[:,1:K] * Diagonal(s[1:K]) * V[:,1:K]'
 @show norm(test-B)
 ```
+## nearptf
 ```julia
 using LinearAlgebra
 """

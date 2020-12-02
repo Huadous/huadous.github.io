@@ -6,6 +6,7 @@ tags: [EECS551, UMICH, Data Science, Linear Algebra, DSP, ML]
 seo:
   date_modified: 2020-12-02 09:21:04 +0800
 ---
+## second_diff_2d
 ```julia
 using SparseArrays
 """

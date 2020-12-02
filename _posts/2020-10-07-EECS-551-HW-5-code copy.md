@@ -6,6 +6,7 @@ tags: [EECS551, UMICH, Data Science, Linear Algebra, DSP, ML]
 seo:
   date_modified: 2020-12-02 10:51:18 +0800
 ---
+## lsgd
 ```julia
 using LinearAlgebra
 using LaTeXStrings
@@ -77,6 +78,7 @@ A = randn(m, n); xtrue = rand(n)
 b = A * xtrue + sigma * randn(m)
 scatter!([0:1:200],lsgd1(A,b),label= L"\sigma = 2")
 ```
+## compute_normals
 ```julia
 using LinearAlgebra
 """
