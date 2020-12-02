@@ -3,8 +3,6 @@ title: (ADSWP)[Introduction to Data Science in Python] week 1 Python Fundamental
 date: 2020-07-14 02:30:00 +0800
 categories: [Learning, Coursera]
 tags: [Data Science, Python]
-seo:
-  date_modified: 2020-07-14 03:11:41 +0800
 ---
 
 

@@ -4,8 +4,6 @@ title: (ADSWP)[Introduction to Data Science in Python] week 2 Basic Data Process
 date: 2020-07-14 02:30:00 +0800
 categories: [Learning, Coursera]
 tags: [Data Science, Python]
-seo:
-  date_modified: 2020-07-14 13:39:50 +0800
 ---
 
 ---

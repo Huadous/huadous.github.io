@@ -3,8 +3,6 @@ title: The theory of Algorithms
 date: 2020-03-02 18:03:00 +0800
 categories: [Learning, Self-study, Algorithms]
 tags: [Algorithms, leetcode]
-seo:
-  date_modified: 2020-03-05 16:34:09 +0800
 ---
 
 ## This is a reading report about the book <Algorithms 4th Edition>
