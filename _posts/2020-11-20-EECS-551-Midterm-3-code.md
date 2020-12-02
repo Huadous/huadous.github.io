@@ -4,7 +4,7 @@ date: 2020-11-20 14:45:01 +0800
 categories: [Learning, UMICH, EECS551]
 tags: [EECS551, UMICH, Data Science, Linear Algebra, DSP, ML]
 seo:
-  date_modified: 2020-12-02 11:42:23 +0800
+  date_modified: 2020-11-20 14:45:01 +0800
 ---
 ## eigtiki
 ```julia
