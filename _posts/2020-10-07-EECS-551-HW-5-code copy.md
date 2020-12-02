@@ -3,8 +3,6 @@ title: EECS 551 HW 5 code
 date: 2020-10-07 16:00:41 +0800
 categories: [Learning, UMICH, EECS551]
 tags: [EECS551, UMICH, Data Science, Linear Algebra, DSP, ML]
-seo:
-  date_modified: 2020-12-02 11:18:42 +0800
 ---
 ## lsgd
 ```julia
