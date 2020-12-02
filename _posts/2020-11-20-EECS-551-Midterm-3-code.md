@@ -1,6 +1,6 @@
 ---
 title: EECS 551 Midterm 3 code
-date: 2020-11-20 14:45:01 +0800
+date: 2020-11-20 20:45:01 +0800
 categories: [Learning, UMICH, EECS551]
 tags: [EECS551, UMICH, Data Science, Linear Algebra, DSP, ML]
 ---
@@ -50,19 +50,22 @@ using BenchmarkTools
 """
 Ah = lr_circ(A, K::Int)
 Compute the rank-at-most-`K` best approximation to circulant matrix `A`
+Thus, the nonzero singular values of are
 In:
 - `A` : `N × N` circulant matrix
 - `K` : rank constraint (nonnegative integer: 0, 1, 2, ...)
 Out:
-- `Ah` : `N × N` best approximation to `A` having rank  `K`
+- `Ah` : `N × N` best approximation to `A` having rank • `K`
 """
 function lr_circ(A, K::Int)::Matrix
-    N = size(A,1)
-    Sigma = fft(A[:,1])
-    per = sortperm(Sigma; by=abs, rev=true)
-    makeQ = (N,n) -> reshape([exp(im*2*pi*k/N)^M for k = per[1:K].-1 for M = 0:N-1],N,n) ./ sqrt(N)
-    data = makeQ(N,K)
-    return data*Diagonal(Sigma[per[1:K]])*data'
+N = size(A,1)
+Sigma = fft(A[:,1])
+per = sortperm(Sigma; by=abs, rev=true)
+permute!(Sigma, per)
+makeQ = (N,n) -> reshape([exp(im*2*pi*k/N)^M for k = per[1:K].-1 for M = 0:N-
+1],N,n) ./ sqrt(N)
+data = makeQ(N,K)
+return data*Diagonal(Sigma[1:K])*data'
 end
 
 using SpecialMatrices: Circulant
@@ -73,6 +76,28 @@ A = Circulant(rand(ComplexF64, N))
 U,s,V = svd(Matrix(A))
 B = U[:,1:K] * Diagonal(s[1:K]) * V[:,1:K]'
 @show norm(test-B)
+
+using LinearAlgebra
+using FFTW
+using BenchmarkTools
+"""
+Ah = lr_circ(A, K::Int)
+Compute the rank-at-most-`K` best approximation to circulant matrix `A`
+In:
+- `A` : `N × N` circulant matrix
+- `K` : rank constraint (nonnegative integer: 0, 1, 2, ...)
+Out:
+- `Ah` : `N × N` best approximation to `A` having rank • `K`
+"""
+function lr_circ(A, K::Int)::Matrix
+N = size(A,1)
+Sigma = fft(A[:,1])
+per = sortperm(Sigma; by=abs, rev=true)
+makeQ = (N,n) -> reshape([exp(im*2*pi*k/N)^M for k = per[1:K].-1 for M = 0:N-
+1],N,n) ./ sqrt(N)
+data = makeQ(N,K)
+return data*Diagonal(Sigma[per[1:K]])*data'
+end
 ```
 ## nearptf
 ```julia

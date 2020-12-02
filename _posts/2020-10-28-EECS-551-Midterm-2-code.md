@@ -88,7 +88,25 @@ data = f.(x,1);
 @show hello = x[findmin(data)[2]]
 plot(x,data)
 ```
+## pseudosvd
 ```julia
+using LinearAlgebra
+"""
+(Ur,Sr,Vr) = pseudosvd(A)
+Return 3 matrices in a compact SVD of the Moore-Penrose pseudo-inverse of `A`
+without calling (or duplicating) Julia's built-in pseudo-inverse function.
+The returned triplet of matrices should satisfy `Ur*Sr*Vr' = A^+`
+to within appropriate numerical precision.
+"""
+function pseudosvd(A::AbstractMatrix)
+U,s,V = svd(A);
+r = rank(Diagonal(s));
+Ur = reverse(V[:,1:r],dims=2);
+Vr = reverse(U[:,1:r],dims=2);
+Sr = Diagonal((ones(r)./reverse(s[1:r])[:])[:]);
+return Ur,Sr,Vr
+end
+
 using LinearAlgebra
 """
 (Ur,Sr,Vr) = pseudosvd(A)
