@@ -4,7 +4,7 @@ date: 2020-09-30 17:30:17 +0800
 categories: [Learning, UMICH, EECS551]
 tags: [EECS551, UMICH, Data Science, Linear Algebra, DSP, ML]
 seo:
-  date_modified: 2020-12-02 11:16:13 +0800
+  date_modified: 2020-12-02 11:16:35 +0800
 ---
 ## second_diff_2d
 ```julia
