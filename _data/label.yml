@@ -6,7 +6,7 @@
 
 
 panel:
-  lastmod: "Recent Update"
+#  lastmod: "Recent Update"
   trending_tags: "Trending Tags"
   toc: "Contents"
 
