@@ -3,7 +3,6 @@ title: Vscode<=Sync=>Github
 date: 2020-03-02 12:05:00 +0800
 categories: [Learning, Self-study]
 tags: [Vscode, GitHub, Sync]
-toc: true
 ---
 
 ## Creat Your Personal Token
