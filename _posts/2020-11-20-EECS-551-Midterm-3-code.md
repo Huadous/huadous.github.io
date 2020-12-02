@@ -3,8 +3,6 @@ title: EECS 551 Midterm 3 code
 date: 2020-11-20 14:45:01 +0800
 categories: [Learning, UMICH, EECS551]
 tags: [EECS551, UMICH, Data Science, Linear Algebra, DSP, ML]
-seo:
-  date_modified: 2020-12-02 11:25:52 +0800
 ---
 ## eigtiki
 ```julia
