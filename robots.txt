@@ -11,8 +11,8 @@ permalink: robots.txt
 User-agent: *
 
 Disallow: /norobots/
-Disallow: /posts/
-Disallow: /tags/
-Disallow: /categories/
+#Disallow: /posts/
+#Disallow: /tags/
+#Disallow: /categories/
 
 Sitemap: {{ site.url | append: site.baseurl }}/sitemap.xml
