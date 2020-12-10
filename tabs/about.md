@@ -8,6 +8,3 @@ title: About
 # MIT License
 ---
 
-Hey, guys! 
-
-This is Huadous. I used to have a thought to build up a personal blog. Now, thx to jekyll! For saving me a lot of time and complete my blog without much efforts.
