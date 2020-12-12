@@ -106,9 +106,9 @@ to within appropriate numerical precision.
 function pseudosvd(A::AbstractMatrix)
     U,s,V = svd(A);
     r = rank(Diagonal(s));
-    Ur = reverse(V[:,1:r],dims=2);
-    Vr = reverse(U[:,1:r],dims=2);
-    Sr = Diagonal((ones(r)./reverse(s[1:r])[:])[:]);
-    return Ur,Sr,Vr
+    Ur = V[:,r:-1:1]
+    Vr = U[:,r:-1:1];
+    Sr = Diagonal((ones(r)./s[r:-1:1][:])[:]);
+return Ur,Sr,Vr
 end
 ```
