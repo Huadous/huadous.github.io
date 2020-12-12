@@ -60,18 +60,6 @@ end
 function bestdiag1(X::Matrix, Y::Matrix)::Diagonal
     return Diagonal(mapslices(sum,(adjoint.(X).*Y),dims=1)./mapslices(sum,(adjoint.(X).*X),dims=1))
 end
-#X = [1 1 1; 1 -1 0; 1 1 0]
-#Y = [1 1 0; 0 0 1; 0 0 0]
-function backup(X::Matrix, Y::Matrix)::Diagonal
-    n = size(X,2)
-    D = zeros(ComplexF64,n)
-    for i = 1:n
-        x = X[:,i]
-        y = Y[:,i]
-        D[i] = (x' * y) / (x' * x)
-    end
-    return Diagonal(D)
-end
 
 X = [10+2im 5-4im -2+7im; 1-9im -1+5im 0-3im; 1+2im 1-3im 0+1im]
 Y = [1-1im 1+15im 0-3im; 0+2im 0-5im 1+8im; 0-5im 0+5im 0-10im]
