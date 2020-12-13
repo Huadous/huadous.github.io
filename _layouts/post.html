@@ -16,7 +16,6 @@ layout: default
           <span class="timeago" data-toggle="tooltip" data-placement="bottom"
            title="{{ page.date | date: site.data.date_format.tooltip }}">
             {{ page.date | date: site.data.date_format.post }}
-            <!-- <i class="unloaded">{{ page.date | date_to_xmlschema }}</i> -->
           </span>
           {% if page.categories.size > 0 %}on{% endif %}
           {% for category in page.categories %}
