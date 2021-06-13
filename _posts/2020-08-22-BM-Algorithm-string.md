@@ -5,7 +5,7 @@ categories: [Learning, leetcode]
 tags: [GitHub, String, Algorithm]
 ---
 # Boyer-Moore algorithm
-
+<object data="https://www.huadous.com/pdf/coursera/algorithmsPrincetonP1/courseraAlgorithmsIntro.pdf" width="1000" height="1000" type='application/pdf'/>
 ## Main features
 
 ---
